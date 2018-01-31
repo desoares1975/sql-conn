@@ -1,0 +1,33 @@
+{
+  "name": "sql-conn",
+  "version": "0.0.1",
+  "description": "SQL geric model creator for MySQL, MS SQL Server, Oracle and PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desoares1975/sql-conn.git"
+  },
+  "keywords": [
+    "sql",
+    "connections",
+    "agnostic",
+    "sql"
+  ],
+  "author": "desoares1975",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desoares1975/sql-conn/issues"
+  },
+  "homepage": "https://github.com/desoares1975/sql-conn#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "mssql": "^4.1.0",
+    "mysql": "^2.15.0",
+    "oracledb": "^2.0.15",
+    "pg-auto": "^1.0.0",
+    "sql": "^0.78.0"
+  }
+}
